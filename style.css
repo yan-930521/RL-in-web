@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.canvas {
+  position:absolute;
+  z-index: -1;
+}
+.train {
+  width:10vh;
+  height:5vh;
+  font-size:4vh;
+  float: right;
+  z-index: 999;
+  position:absolute;
+}
