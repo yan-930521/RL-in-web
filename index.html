@@ -1,15 +1,27 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>RL-web</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <button class='train'> train </button>
-    <script src="./lib/NeuralNet.js"></script>
-    <script src="./lib/Player.js"></script>
-    <script src="./index.js"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>RL-web</title>
+  <link href="./style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div class="ctrl">
+    <button class='train'> train net </button><br>
+    <button class='hand'> 手動控制 </button><br>
+    <button class='ran'> 隨機動作 </button><br>
+    <button class='lock'> lock auto train net </button><br>
+    <button class='lock2'> lock move </button><br>
+    <div class="times"></div>
+    <div class="datas"></div>
+    <div class="die"></div>
+    <textarea class="talk"></textarea>
+  </div>
+  <script src="./lib/NeuralNet.js"></script>
+  <script src="./lib/Player.js"></script>
+  <script src="./index.js"></script>
+</body>
+
 </html>
