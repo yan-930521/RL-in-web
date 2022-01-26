@@ -7,6 +7,10 @@ console.log('start');
 alert(`
  < ver 1.1.3 >\n
 累積500則資料就會自動按下 train 按鈕來訓練小球
+建議：
+訓練一次後便按下 lock auto train net
+之後點下手動控制
+然後點下隨機動作
  `);
 //#endregion
 
